@@ -1,0 +1,152 @@
+.online_button:hover {
+    border: 2px solid yellow;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    background-color: #FFFF0088;
+}
+.online_button {
+    height: 28px;
+    padding: 10px;
+    transition: 0.2s ease;
+}
+.online_button span {
+    font-size: 24px;
+    text-shadow: 1px 2px 4px black;
+}
+.Conline_button{
+    position: relative;
+    bottom: 12px;
+}
+body {
+    background: url('../img/clair.jpeg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+@font-face {
+    font-family: 'rockwell';
+    src: url('../font/Rockwell-Font/ROCK.TTF')
+}
+.onlinegame {
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.container, ._container_ {
+    background-color: #00000099;
+    min-width: 40%;
+    color: white;
+    height: 40vh;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 10px;
+    font-family: 'rockwell';
+    text-align: center;   
+}
+h2 {
+    font-weight: normal;
+}
+@keyframes desapear-zoom-in {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+@keyframes apear-zoom-in {
+    from {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes desapear-zoom-out {
+    to {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes apear-zoom-out {
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes move-to-left_1 {
+    to {
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+}
+@keyframes move-to-left_2 {
+    to {
+        transform: translateX(-311px);
+        opacity: 1;
+    }
+}
+@keyframes move-to-right_1 {
+    from {
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes move-to-right_2 {
+    from {
+        transform: translateX(-311px);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 0;
+    }
+}
+
+#rejoindre_salon {
+    position: relative;
+    right: 35%;
+    bottom: 354px;
+    transform: scale(0);
+}
+.menu_button_container {
+    display: flex;
+}
+#nb_block {
+    background-color: #ffffff00 !important;
+    align-items: center;
+    transform: translateX(-90px);
+    opacity: 0;
+}
+#decremente {
+    margin-right: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#incremente {
+font-weight: bold;
+cursor: pointer;
+}
+#_nb_block_ {
+    margin-right: 100px;   
+}
+._nb_block_:hover{
+    background-color: #ffffff00;
+    border: none;
+
+}
+._nb_block_{
+    cursor: default !important;
+}
+.fictif {
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
