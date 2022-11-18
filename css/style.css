@@ -1,0 +1,272 @@
+*{
+    font-family: 'rockwell';
+}
+@keyframes apear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity : 1;
+    }
+}
+@keyframes error_anim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+* {
+    animation: apear 0.3s ease;
+}
+.error_anim {
+
+    animation: error_anim 0.2s ease 4;
+    color: red !important;
+}
+body {
+    margin:0;
+    padding:0;
+    /*background: url('../img/tambour.jpeg') no-repeat;
+    background: url('../img/clair.jpeg') no-repeat;
+    background: url('../img/sombre.jpeg') no-repeat;*/
+    background-size: cover;
+}
+.head {
+    margin-left: 40%;
+}
+.head h1 {
+    color: #FEFF6E;
+    font-size: 40px;
+    text-shadow: 1px 2px 3px #FF0000;
+}
+.head h1 span {
+    margin-left: 8%;
+}
+@font-face {
+    font-family: 'rockwell';
+    src: url('../font/Rockwell-Font/ROCK.TTF')
+}
+.parameters img{
+    width: 30px;
+    border-radius: 15px;
+}
+#sound {
+    width: 25px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 50px;
+}
+.parameters {
+    position: absolute;
+    left: 77%;
+    bottom: 13%;
+    display: flex;
+}
+.parameters #sound, .parameters #propos,
+.parameters #share {
+    margin-left: 20px;
+}
+button {
+    border: none;
+    background: url('../img/button.jpeg');
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    width: 200px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+.buttons {
+    margin-left: 41%;
+}
+#jouer, #new_game, #level_button_div_1 button {
+    box-shadow: 1px 2px 3px #FF0000;
+}
+#score, #again,#level_button_div_2 button, #_back, #online, #login {
+    box-shadow: 1px 2px 3px  #FEFF6E;
+}
+#aide {
+    box-shadow: 1px 2px 3px  #4CAF50;
+}
+#new_game, #again, #back {
+    height: 60px;
+}
+.level_button, .level_label {
+    display: flex;
+}
+
+#level_button_div_1 button,
+#level_button_div_2 button {
+    margin-left: 190px;
+}
+.level {
+    height: 70px;
+}
+.levels {
+    position: relative;
+    right: 60px;
+    bottom: 23px;
+}
+.level_label h1 {
+    margin-left: 250px;
+    color: #FEFF6E;
+    text-shadow: 1px 2px 3px #FF0000;
+}
+#normal {
+    position: relative;
+    left: 4%;
+}
+#hard {
+    position: relative;
+    left: 5%;
+}
+.level_label {
+    position: relative;
+    top: 30px;
+}
+.title {
+    display: flex;
+    align-items: center;
+}
+.title h1{
+    margin-left: 20px;
+    color: #FEFF6E;
+    text-shadow: 1px 2px 3px #FF0000;
+    font-size: 25px;
+}
+.move {
+    position: relative;
+    left: 60%;
+}
+.time {
+    position: relative;
+    left: 33%;
+}
+#saga span {
+    margin-left: 25%;
+}
+#classement {
+    margin-left: 40%;
+    color: #FEFF6E;
+    text-shadow: 1px 2px 3px #FF0000;
+}
+._level h1 {
+    color: #FEFF6E;
+    text-shadow: 1px 2px 3px black;
+    margin-top: 90px;
+}
+.author_img {
+    width: 150px;
+}
+.author_title h1 {
+    margin-left: 33%;
+    color: #FEFF6E;
+    text-shadow: 1px 2px 3px #FF0000;
+}
+.vers_la_gauche {
+    position: absolute;
+    right: 100px;
+}
+.a_droite {
+    margin-left: 230px;
+}
+label {
+    color: #FEFF6E;
+    text-shadow: 1px 2px 3px black;
+}
+.author {
+    margin-top: 55px;
+}
+.author div {
+    margin-top: 10px;
+}
+.annee {
+    color: #FEFF6E;
+    text-shadow: 1px 2px 3px #FF0000;
+    position: absolute;
+    right: 20px;
+}
+#help_title {
+    margin-left: 45%;
+    color: #FEFF6E;
+    text-shadow: 1px 2px 3px #FF0000;
+}
+.game{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+    border: 1px solid black;
+}
+#_sound {
+    margin-left: 82.2%;
+    position: relative;
+    bottom: 28px;
+
+    font-weight: bold;
+}
+#pause {
+    border: 2px solid #FEFF6E;
+    box-shadow: 1px 2px 3px #FF0000;
+    width: 26px;
+    border-radius: 50%;
+    position: relative;
+    left: 35%;
+    cursor: pointer;
+}
+#_pause {
+    text-shadow: 1px 2px 3px #FF0000;
+    color: #FEFF6E;
+    font-size: 17px;
+    position:relative;
+    left: 29%;
+}
+#win div button {
+    font-size: 16px;
+    margin-top: 40px;
+    transition: transform 0.3s ease;
+}
+#win .__ {
+    margin-bottom: 110px;
+}
+#win div button:hover {
+    transform:scaleX(1.1);
+    transition: transform 0.3s ease;
+}
+.sscore {
+    margin-right: 10%;
+}
+._level {
+    display: flex;
+}
+._level h1, ._level div {
+    margin-left: 20%;
+}
+.want_to_play {
+    position: relative;
+    bottom: 40px;
+}
+.buttons_home {
+    position: relative;
+    bottom: 25px;
+}
+.flags img {
+    width: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.flags {
+    position:absolute;
+    right: 15%;
+    bottom: 35%;
+    display: flex;
+}
+#eng {
+    width: 23px !important;
+}
