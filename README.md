@@ -2,7 +2,7 @@
 
 SagaHanoiTower is a puzzle game for doing mental gymnastics.
 
-![This is an image](https://drive.google.com/file/d/1EGgXEVcoEqHvxUImh1ae5-RDOaMfJnVP/view?usp=share_link)
+![This is an image](https://media-exp1.licdn.com/dms/image/C4E22AQFEiqgTkMmmNQ/feedshare-shrink_2048_1536/0/1670330740100?e=1673481600&v=beta&t=XYBZ8UbokhvpVPqryAWGujBeQNGitvz31SXa0czA5FY)
 
 
 It is made with the tools: Php, html, css, js and mysql
